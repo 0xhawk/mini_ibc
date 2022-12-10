@@ -1,0 +1,12 @@
+syntax = "proto3";
+package mini_ibc.miniibc;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "mini_ibc/x/miniibc/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}

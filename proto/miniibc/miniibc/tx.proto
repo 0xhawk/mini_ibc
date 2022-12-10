@@ -1,0 +1,13 @@
+syntax = "proto3";
+package mini_ibc.miniibc;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "mini_ibc/x/miniibc/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message

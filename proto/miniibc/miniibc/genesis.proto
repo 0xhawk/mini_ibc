@@ -1,0 +1,14 @@
+syntax = "proto3";
+package mini_ibc.miniibc;
+
+import "gogoproto/gogo.proto";
+import "miniibc/miniibc/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "mini_ibc/x/miniibc/types";
+
+// GenesisState defines the miniibc module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
